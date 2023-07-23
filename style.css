@@ -121,6 +121,7 @@ main h2{
     font-size: 60px;
     font-weight: 500;
     width: 400px;
+    letter-spacing: -1px;
 }
 
 .Project {
@@ -197,6 +198,7 @@ main h2{
     width: 100%;
     padding-top: 300px;
     padding-left: 10px;
+    letter-spacing: -1px;
 }
 
 .discuss p{
@@ -204,6 +206,7 @@ main h2{
     font-weight: 500;
     padding-top: 450px;
     padding-left: 1050px;
+    letter-spacing: -1px;
 }
 
 
