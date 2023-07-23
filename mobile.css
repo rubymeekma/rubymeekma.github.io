@@ -1,0 +1,123 @@
+body{
+    /* background-color: red; */
+}
+
+.header{
+    display: block;
+    margin-top: 0;
+}
+
+.header h1{
+    display: block;
+    line-height: 0.9;
+
+}
+
+
+.headerlinks{
+    display: block;
+    width: 200px;
+    text-align: right;
+    line-height: 0.8;
+    margin-top: 5px;
+}
+
+
+.intro{
+    display: block;
+    width: 100%;
+    padding-bottom: 300px;
+    padding-top: 50px;
+    
+}
+
+main h2{
+    font-size: 55px;
+    width: auto;
+    
+}
+
+.bluehighlight{
+    color: #3300FF;
+}
+
+
+.contacts{
+    display: none;
+}
+
+.aboutme p{
+    font-size: 24px;
+    line-height: 1.1;
+    padding: 150px 20px 500px 0px;
+}
+
+.Project{
+    padding-bottom: 80px;
+    padding-left: 0;
+}
+
+.Project .gallery{
+    padding-bottom: 0px;
+    height: auto;
+}
+
+.Project h4{
+    font-size: 20px;
+    width: 300px;
+}
+
+.Project h5{
+    font-size: 20px;
+  
+}
+
+.Project p{
+    width: 100%;
+}
+
+.Project .gallery{
+    max-width: 100%;
+
+}
+
+.works p{
+    font-size: 32px;
+}
+.Project {
+    display: block;
+}
+
+.Project p{
+    padding: 0;
+}
+
+.discuss h6{
+    font-size: 40px;
+    line-height: 1;
+
+}
+.discuss p{
+    padding-top: 450px;
+    padding-left: 130px;
+    font-size: 40px;
+    
+}
+
+
+footer {
+    display:block;
+    padding-bottom: 1em;
+}
+
+
+footer h5{
+    font-size: 30px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+footer p{
+    font-size: 20px;
+}
+

@@ -1,0 +1,89 @@
+body{
+    /* background-color: blueviolet; */
+}
+
+.intro{
+    width: 100%;
+    padding-bottom: 300px;
+    padding-top: 170px;
+    
+}
+
+main h2{
+    font-size: 80px;
+    width: auto;
+    margin-top: 30px;
+    
+}
+
+.bluehighlight{
+    color: #3300FF;
+}
+
+.contacts{
+    display: none;
+    /* padding-left: 40px; */
+}
+
+
+.aboutme p{
+    font-size: 24px;
+    line-height: 1.1;
+    padding: 150px 20px 500px 200px;
+}
+
+
+.Project{
+    padding: 0px 0px 80px 0px;
+    display: block;
+}
+
+.Project h4{
+    font-size: 20px;
+    width: 150px;
+    
+}
+
+.Project h5{
+    font-size: 20px;
+  
+}
+
+.Project p{
+    width: 300px;
+    padding: 0;
+}
+
+
+
+.works p{
+    font-size: 32px;
+}
+
+.two-up img{
+    width: 48%;
+
+}
+
+
+.discuss h6{
+    font-size: 40px;
+    line-height: 1;
+
+}
+.discuss p{
+    padding-top: 450px;
+    padding-left: 470px;
+    font-size: 40px;
+}
+
+footer h5{
+    font-size: 15px;
+    padding-bottom: 50px;
+    
+}
+
+footer p{
+    padding-left: 70px;
+}
+
