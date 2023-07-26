@@ -23,6 +23,11 @@ main h2{
     /* padding-left: 40px; */
 }
 
+.arrowbig{
+    display: none;
+
+}
+
 
 .aboutme p{
     font-size: 24px;

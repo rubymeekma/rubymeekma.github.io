@@ -1,14 +1,37 @@
-body{
-    background-color: #f7f7f7;
-    font-family: Helvetica, sans-serif;
-    margin: 0px;
+@font-face {
+    font-family: 'Suisse Intl';
+  src: url('./Fonts/SuisseIntl-Regular-WebXL.eot'); /* IE9 Compat Modes */
+  src: url('./Fonts/SuisseIntl-Regular-WebXL.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./Fonts/SuisseIntl-Regular-WebXL.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./Fonts/SuisseIntl-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./Fonts/SuisseIntl-Regular-WebXL.svg') format('svg'); /* Legacy iOS */
+       font-weight: 400;
+}
+@font-face {
+    font-family: 'Suisse Intl';
+  src: url('./Fonts/SuisseIntl-Medium-WebXL.eot'); /* IE9 Compat Modes */
+  src: url('./Fonts/SuisseIntl-Medium-WebXL.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./Fonts/SuisseIntl-Medium-WebXL.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./Fonts/SuisseIntl-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./Fonts/SuisseIntl-Medium-WebXL.svg') format('svg'); /* Legacy iOS */
+       font-weight: 600;
 }
 
-/* @font-face {
-    font-family: myFirstFont;
-    src: url(suisse_webfonts/SuisseIntl-Regular-WebXL.woff);
-  } */
+@font-face {
+    font-family: 'Suisse Intl';
+  src: url('./Fonts/SuisseIntl-Light-WebXL.eot'); /* IE9 Compat Modes */
+  src: url('./Fonts/SuisseIntl-Light-WebXL.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./Fonts/SuisseIntl-Light-WebXL.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./Fonts/SuisseIntl-Light-WebXL.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./Fonts/SuisseIntl-Light-WebXL.svg') format('svg'); /* Legacy iOS */
+       font-weight: 300;
+}
 
+body{
+    background-color: #f7f7f7;
+    font-family: "Suisse Intl", 'Helvetica', sans-serif;
+    margin: 0px;
+}
 
 
 header{
@@ -44,7 +67,6 @@ main{
 }
 
 .intro{
-    
     width: 1450px;
     display: flex;
     /* justify-content: space-between; */
@@ -65,27 +87,18 @@ main h2{
     color: #3300FF;
 }
 
-/* .contacts p{
-    font-size: 17px;
-    color: #3300FF;
-    line-height: 1.2;
-    display: flex;
-    padding-top: 230px;
-    padding: 230px 20px 0px 0px;
-    
-} */
-
-
-
-
 .headerlinks a:link {
     text-decoration: none;
+}
 
+.headerlinks{
+    color: black;
 }
 
 .headerlinks a:visited{
     color: black;
 }
+
 .headerlinks a:hover {
     color: orangered;
   }
@@ -93,7 +106,7 @@ main h2{
 
 .contacts{
     padding-top: 230px;
-    display: flex;
+    /* display: flex; */
 }
 
 .contacts a:link, a:visited {
@@ -110,6 +123,15 @@ main h2{
     color: orangered;
   }
 
+.arrowbig{
+    font-size: 200px;
+    line-height: 0.5;
+    padding-left: 60px;
+    color: #3300FF;
+    font-weight: 300;
+
+}
+
 
   
 
@@ -122,12 +144,19 @@ main h2{
 
 }
 
+.works{
+    display: flex;
+    justify-content: space-between;
+}
 .works p{
     font-size: 60px;
     font-weight: 500;
-    width: 400px;
+    /* width: 400px; */
     letter-spacing: -1px;
+    margin-top: 0;
+    
 }
+
 
 .Project {
     display: flex;
@@ -138,7 +167,7 @@ main h2{
 
 .Project h4{
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 800;
     /* display: inline-block; */
     margin-bottom:0;  
     margin-top:0;  
@@ -146,8 +175,8 @@ main h2{
 }
 
 .Project h5{
-    font-size: 20px;
-    font-weight: 400;  
+    font-size: 24px;
+    font-weight: 200;  
     margin-top:0;  
 }
 
