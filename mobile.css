@@ -23,7 +23,7 @@
 .intro{
     display: block;
     width: 100%;
-    padding-bottom: 150px;
+    padding-bottom: 30px;
     
 }
 
@@ -40,7 +40,7 @@ main h2{
     font-size: 43px;
     width: auto;
     line-height: 1;
-    padding-top: 100px;
+    padding-top: 110px;
     letter-spacing: -1px;
     
     
@@ -65,7 +65,7 @@ main h2{
 .aboutme p{
     font-size: 24px;
     line-height: 1.1;
-    padding: 150px 20px 500px 0px;
+    padding: 150px 20px 350px 0px;
 }
 
 .Project{
