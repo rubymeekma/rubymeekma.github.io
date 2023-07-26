@@ -2,9 +2,19 @@
 
 .intro{
     width: 100%;
-    padding-bottom: 300px;
+    padding-bottom: 50px;
     padding-top: 170px;
     
+}
+
+
+.headerlinks a:visited{
+    color: black;
+}
+
+.headerlinks a:link {
+    text-decoration: none;
+    color: black;
 }
 
 main h2{
@@ -25,7 +35,17 @@ main h2{
 
 .arrowbig{
     display: none;
+}
 
+
+
+.phonearrow{
+    color: #3300FF;
+    font-size: 80px;
+    display:flex;
+    justify-content: end;
+    text-align: right;
+    font-weight: 300;
 }
 
 
@@ -38,26 +58,40 @@ main h2{
 
 .Project{
     padding: 0px 0px 80px 0px;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+
 }
+
+
+
+
 
 .Project h4{
     font-size: 20px;
-    width: 150px;
+    width: 300px;
+    
     
 }
 
 .Project h5{
     font-size: 20px;
-  
+    width: 300px;
+    
 }
 
 .Project p{
-    width: 300px;
-    padding: 0px 40px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 50px 0px;
+    
+    
 }
 
-
+.gallery{
+    width: auto;
+    flex: wrap;
+    
+}
 
 .works p{
     font-size: 32px;
@@ -83,6 +117,7 @@ main h2{
 footer h5{
     font-size: 15px;
     padding-bottom: 50px;
+    
     
 }
 

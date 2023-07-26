@@ -19,11 +19,20 @@
     margin-top: 5px;
 }
 
+.headerlinks a:visited{
+    color: black;
+}
+
+.headerlinks a:link {
+    text-decoration: none;
+    color: black;
+}
+
 
 .intro{
     display: block;
     width: 100%;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     
 }
 
@@ -42,8 +51,6 @@ main h2{
     line-height: 1;
     padding-top: 110px;
     letter-spacing: -1px;
-    
-    
 }
 
 .bluehighlight{
