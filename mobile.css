@@ -88,10 +88,13 @@ main h2{
 .Project h4{
     font-size: 20px;
     width: 300px;
+    margin-bottom: 0px;
+
 }
 
 .Project h5{
     font-size: 20px;
+    margin-top: 0px;
   
 }
 
