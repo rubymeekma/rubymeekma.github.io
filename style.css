@@ -89,11 +89,12 @@ main h2{
 
 .headerlinks a:link {
     text-decoration: none;
-}
-
-.headerlinks{
     color: black;
 }
+
+/* .headerlinks{
+    color: black;
+} */
 
 .headerlinks a:visited{
     color: black;
