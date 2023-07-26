@@ -67,7 +67,7 @@ main{
 }
 
 .intro{
-    width: 1450px;
+    width: auto;
     display: flex;
     /* justify-content: space-between; */
 }
