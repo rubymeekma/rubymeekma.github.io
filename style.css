@@ -7,6 +7,17 @@
        url('./Fonts/SuisseIntl-Regular-WebXL.svg') format('svg'); /* Legacy iOS */
        font-weight: 400;
 }
+
+@font-face {
+    font-family: 'Suisse Intl';
+  src: url('./Fonts/SuisseIntl-Regular-Italic-WebXL.eot'); /* IE9 Compat Modes */
+  src: url('./Fonts/SuisseIntl-Regular-Italic-WebXL.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./Fonts/SuisseIntl-Regular-Italic-WebXL.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./Fonts/SuisseIntl-Regular-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./Fonts/SuisseIntl-Regular-Italic-WebXL.svg') format('svg'); /* Legacy iOS */
+       font-weight: 400;
+}
+
 @font-face {
     font-family: 'Suisse Intl';
   src: url('./Fonts/SuisseIntl-Medium-WebXL.eot'); /* IE9 Compat Modes */
@@ -19,11 +30,31 @@
 
 @font-face {
     font-family: 'Suisse Intl';
+  src: url('./Fonts/SuisseIntl-Medium-Italic-WebXL.eot'); /* IE9 Compat Modes */
+  src: url('./Fonts/SuisseIntl-Medium-Italic-WebXL.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./Fonts/SuisseIntl-Medium-Italic-WebXL.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./Fonts/SuisseIntl-Medium-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./Fonts/SuisseIntl-Medium-Italic-WebXL.svg') format('svg'); /* Legacy iOS */
+       font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Suisse Intl';
   src: url('./Fonts/SuisseIntl-Light-WebXL.eot'); /* IE9 Compat Modes */
   src: url('./Fonts/SuisseIntl-Light-WebXL.woff2') format('woff2'), /* Super Modern Browsers */
        url('./Fonts/SuisseIntl-Light-WebXL.woff') format('woff'), /* Pretty Modern Browsers */
        url('./Fonts/SuisseIntl-Light-WebXL.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('./Fonts/SuisseIntl-Light-WebXL.svg') format('svg'); /* Legacy iOS */
+       font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Suisse Intl';
+  src: url('./Fonts/SuisseIntl-LightItalic-WebXL.eot'); /* IE9 Compat Modes */
+  src: url('./Fonts/SuisseIntl-Light-Italic-WebXL.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./Fonts/SuisseIntl-Light-Italic-WebXL.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./Fonts/SuisseIntl-Light-Italic-WebXL.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./Fonts/SuisseIntl-Light-Italic-WebXL.svg') format('svg'); /* Legacy iOS */
        font-weight: 300;
 }
 
@@ -181,6 +212,10 @@ main h2{
 
 }
 
+.simple{
+    font-style: italic;
+}
+
 .infosmile{
     display: flex;
     padding-bottom: 100px;
@@ -206,8 +241,6 @@ main h2{
     /* flex: 1; */
     width: 400px;
     height: 400px;
-    
-    
 
 }
 
@@ -216,7 +249,8 @@ main h2{
     font-size: 60px;
     font-weight: 300;
     line-height: 1;
-    padding-bottom: 220px;
+    padding-bottom: 250px;
+    font-style: italic;
 }
 
 .infoarrow p{
@@ -251,6 +285,13 @@ main h2{
     line-height: 1;
     padding-bottom: 500px;
     text-align: right;
+    
+}
+
+.goods{
+    font-style: italic;
+    color: #3300FF;
+
 }
 
 .works{
