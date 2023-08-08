@@ -33,6 +33,10 @@ body{
     margin: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+   }
+
 
 header{
     
@@ -63,13 +67,25 @@ main{
     /* background-color: #f7f7f7; */
     /* width: 1450px; */
     margin: 0 auto 0 auto;
-    padding: 2em 1em 1em 1em;
+    /* padding: 2em 1em 1em 1em; */
 }
+
+
 
 .intro{
     width: auto;
     display: flex;
     /* justify-content: space-between; */
+    padding: 2em 1em 1em 1em;
+}
+
+.intro a{
+    text-decoration: none;
+}
+
+.intro a:hover{
+    color: orangered;
+
 }
 
 main h2{
@@ -78,9 +94,9 @@ main h2{
     line-height: 0.9;
     margin: 0 0 1em 0;
     padding-top: 220px;
-    width: 1200px;
+    width: auto;
     display: inline-block; 
-    letter-spacing: -1px;
+    letter-spacing: -0.02em;
     
 }
 
@@ -105,6 +121,8 @@ main h2{
 .contacts{
     padding-top: 230px;
     /* display: flex; */
+    padding-right: 30px;
+    padding-left: 20px;
 }
 
 .contacts a:link, a:visited {
@@ -116,10 +134,11 @@ main h2{
    
 }
 
-
 .contacts a:hover{
     color: orangered;
-  }
+
+}
+
 
 .arrowbig{
     font-size: 200px;
@@ -141,14 +160,103 @@ main h2{
 .aboutme p{
     font-size: 36px;
     line-height: 1.1;
-    padding: 200px 20px 500px 600px;
+    padding: 200px 40px 400px 620px;
     /* display: inline-block; */
 
+}
+
+.infome{
+    background-color: #3300FF;
+    padding: 0 1em 1em 1em;
+    margin-top: 0px;
+    
+}
+
+.infome p{
+    color: #f7f7f7;
+    font-size: 60px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    line-height: 1;
+
+}
+
+.infosmile{
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.infome h6{
+    font-size: 60px;
+    color:#f7f7f7;
+    line-height: 1;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.infosmile p{
+    font-size: 30px;
+    font-weight: 300;
+    flex: 1;
+    margin-top: 0;
+    padding-left: 200px;
+}
+
+.infosmile img{
+    /* flex: 1; */
+    width: 400px;
+    height: 400px;
+    
+    
+
+}
+
+
+.keywords{
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 1;
+    padding-bottom: 220px;
+}
+
+.infoarrow p{
+    
+    font-size: 200px;
+    padding-left: 60px;
+    color:#f7f7f7;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.alright{
+    padding: 0 1em 1em 1em;
+}
+
+.alright p{
+    font-size: 60px;
+    line-height: 1;
+    margin-top: 20px;
+    padding-bottom: 400px;
+    
+
+}
+
+.thisway{
+    padding: 2em 1em 1em 1em;
+}
+
+.thisway p{
+    font-size: 60px;
+    line-height: 1;
+    padding-bottom: 500px;
+    text-align: right;
 }
 
 .works{
     display: flex;
     justify-content: space-between;
+    padding: 2em 1em 1em 1em;
 }
 .works p{
     font-size: 60px;
@@ -159,27 +267,45 @@ main h2{
     
 }
 
+/* .bluehighlightprocess{
+    display: contents;
+} */
+
+.Project a:link, a:visited{
+    color:#3300FF;
+    text-decoration: underline;
+}
+
+.Project a:hover{
+    color: orangered;
+}
+
 
 .Project {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 300px;
-    padding-left: 10px;
+    /* padding-bottom: 300px;
+    padding-left: 10px; */
+    padding: 2em 1em 300px 10px;
 }
 
 .Project h4{
     font-size: 24px;
     font-weight: 800;
-    /* display: inline-block; */
     margin-bottom:0px;  
     margin-top:0;  
     width: 300px;
+    padding-left: 10px;
+    line-height: 1;
+    
 }
 
 .Project h5{
     font-size: 24px;
     font-weight: 200;  
     margin-top:0px;  
+    padding-left: 10px;
+    
 }
 
 .Project p{
@@ -189,6 +315,8 @@ main h2{
     margin-top:0;
     padding:0px 40px 0px 100px;
 }
+
+
 
 .Project .gallery{
     width: 1000px;
@@ -228,21 +356,60 @@ main h2{
         object-fit: cover;
 } */
 
+.happycustomers{
+    background-color: #3300FF;
+    height: 850px;
+    line-height: 1;
+}
+
+.happycustomers p{
+    font-size: 60px;
+    color: #f7f7f7;
+    /* padding-top: 10px; */
+    padding: 20px 1em 1em 15px;
+}
+
+.customers{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px 0 200px;
+}
+
+.customers img{
+    width: 50%;
+    height: 50%;
+    padding-top: 200px;
+    align-items: flex-end;
+}
+
+.img1{
+    width: 40%;
+    height: 40%;
+}
+
+
+.discuss{
+    padding: 0 1em 1em 1em;
+}
+
 .discuss h6{
     font-size: 60px;
     font-weight: 500;
     width: 100%;
-    padding-top: 300px;
-    padding-left: 10px;
+    /* padding-top: 2px; */
+    /* padding-left: 10px; */
     letter-spacing: -1px;
+    margin-top: 20px;
+    line-height: 1;
+    
 }
 
 .discuss p{
     font-size: 60px;
     font-weight: 500;
     padding-top: 450px;
-    padding-left: 1050px;
     letter-spacing: -1px;
+    text-align: right;
 }
 
 
