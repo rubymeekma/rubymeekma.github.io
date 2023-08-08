@@ -224,7 +224,7 @@ main h2{
 .infome h6{
     font-size: 60px;
     color:#f7f7f7;
-    line-height: 1;
+    line-height: 0.9;
     font-weight: 400;
     padding-top: 20px;
     letter-spacing: -0.02em;
@@ -253,7 +253,7 @@ main h2{
     padding-bottom: 250px;
     font-style: italic;
     line-height: 0.9em;
-    letter-spacing: -0.02em;
+    
 }
 
 .infoarrow p{
