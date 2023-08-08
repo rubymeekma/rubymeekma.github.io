@@ -79,22 +79,37 @@ main h2{
     padding: 150px 0px 350px 0px;
 }
 
+.infome{
+    width: auto;
+}
+
 .infome p{
     font-size: 24px;
+    width: auto;
 }
 
 .infome h6{
     font-size: 36px;
 }
 
+.keywords p{
+    font-size: 30px;
+}
+
+.infoarrow p{
+    font-size: 50px;
+}
+
 .infosmile{
     display: inline-block;
-    width: auto;
+    width: fit-content;
     
 }
 
 .infosmile img{
     padding-bottom: 50px;
+    width: auto;
+    height: auto;
 }
 
 .infosmile p{
@@ -180,7 +195,7 @@ main h2{
     width: 60%;
     height: 60%;
     padding-top: 0;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .img1{
@@ -188,6 +203,7 @@ main h2{
     height: 80%;
     padding: 0;
     margin: 0;
+    padding-bottom: 120px;
     
     
 }
