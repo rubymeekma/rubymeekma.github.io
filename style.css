@@ -227,6 +227,7 @@ main h2{
     line-height: 1;
     font-weight: 400;
     padding-top: 20px;
+    letter-spacing: -0.02em;
 }
 
 .infosmile p{
@@ -251,6 +252,8 @@ main h2{
     line-height: 1;
     padding-bottom: 250px;
     font-style: italic;
+    line-height: 0.9em;
+    letter-spacing: -0.02em;
 }
 
 .infoarrow p{
@@ -272,19 +275,23 @@ main h2{
     line-height: 1;
     margin-top: 20px;
     padding-bottom: 400px;
+    line-height: 0.9em;
+    letter-spacing: -0.02em;
     
 
 }
 
 .thisway{
     padding: 2em 1em 1em 1em;
+    
 }
 
 .thisway p{
     font-size: 60px;
-    line-height: 1;
     padding-bottom: 500px;
     text-align: right;
+    line-height: 0.9em;
+    letter-spacing: -0.02em;
     
 }
 
@@ -408,6 +415,8 @@ main h2{
     color: #f7f7f7;
     /* padding-top: 10px; */
     padding: 20px 1em 1em 15px;
+    line-height: 0.9em;
+    letter-spacing: -0.02em;
 }
 
 .customers{
@@ -439,9 +448,9 @@ main h2{
     width: 100%;
     /* padding-top: 2px; */
     /* padding-left: 10px; */
-    letter-spacing: -1px;
+    line-height: 0.9em;
+    letter-spacing: -0.02em;
     margin-top: 20px;
-    line-height: 1;
     
 }
 
@@ -449,8 +458,9 @@ main h2{
     font-size: 60px;
     font-weight: 500;
     padding-top: 450px;
-    letter-spacing: -1px;
     text-align: right;
+    line-height: 0.9em;
+    letter-spacing: -0.02em;
 }
 
 
